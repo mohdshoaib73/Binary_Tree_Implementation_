@@ -1,25 +1,25 @@
-/*
-class Node {
-public:
-    int data;
-    Node* left;
-    Node* right;
+// /*
+// class Node {
+// public:
+//     int data;
+//     Node* left;
+//     Node* right;
 
-    Node(int val) {
-        data = val;
-        left = right = NULL;
-    }
-};
-*/
-class Solution {
-  public:
+//     Node(int val) {
+//         data = val;
+//         left = right = NULL;
+//     }
+// };
+// */
+// class Solution {
+//   public:
   
-    int height(Node* node) {
-        // code here
-       if(!node)
-       return 0;
-       if(!(node->left) && !(node->right))return 0;
-       return (1+max(height(node->left),height(node->right)));
+//     int height(Node* node) {
+//         // code here
+//        if(!node)
+//        return 0;
+//        if(!(node->left) && !(node->right))return 0;
+//        return (1+max(height(node->left),height(node->right)));
         
-    }
-};
+//     }
+// };
